@@ -1,0 +1,29 @@
+# ElevateLabsTask2
+
+
+✉️ Email Header Summary ==> Suspected Phishing Email Analysis Report
+Header Field	Details
+From	Microsoft account team <no-reply@access-accsecurity.com>
+Reply-To	sotrecognizd@gmail.com
+Return-Path	bounce@thcultarfdes.co.uk
+To	phishing@pot (invalid/obfuscated)
+Subject	Microsoft account unusual signin activity
+Date	Fri, 8 Sep 2023 05:47:04 +0000
+Message-ID	<032672b4-77ca-42f8-a036-9711e91bd1f3@DB8EUR06FT032.eop-eur06.prod.protection.outlook.com>
+Authentication-Results	spf=none, dkim=none, dmarc=permerror
+X-Sender-IP	89.144.44.2
+Received-SPF	None (protection.outlook.com: thcultarfdes.co.uk does not designate permitted sender hosts)
+Received From (Original Sender)	thcultarfdes.co.uk (89.144.44.2)
+Received By	Microsoft Exchange Online and other internal routing servers
+X-MS-Exchange-Organization-SCL	5 (indicates spam likelihood)
+X-MS-Exchange-Organization-PCL	2
+X-Microsoft-Antispam-Mailbox-Delivery	Detected spam likelihood & routing preferences
+Content-Type	text/html; charset="UTF-8"
+🔍 Red Flags Indicating a Phishing Attempt
+1.	Fake sender domain: access-accsecurity.com is not a valid Microsoft domain.
+2.	Reply-to Gmail address: sotrecognizd@gmail.com is suspicious and non-corporate.
+3.	Return-Path mismatch: Email bounced from thcultarfdes.co.uk, not related to Microsoft.
+4.	No SPF, DKIM, or DMARC authentication: Strong indicator of spoofing.
+5.	Obfuscated recipient ("phishing@pot"): Likely test or forged destination.
+6.	Suspicious tracking pixel: Hidden <img> from thebandalisty.com, often used for tracking opens.
+7.	Urgency + embedded mailto: "Report the user" links go to mailto:sotrecognizd@gmail.com.
