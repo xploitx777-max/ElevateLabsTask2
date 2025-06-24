@@ -27,3 +27,34 @@ Content-Type	text/html; charset="UTF-8"
 5.	Obfuscated recipient ("phishing@pot"): Likely test or forged destination.
 6.	Suspicious tracking pixel: Hidden <img> from thebandalisty.com, often used for tracking opens.
 7.	Urgency + embedded mailto: "Report the user" links go to mailto:sotrecognizd@gmail.com.
+
+
+
+
+
+Interview Questions:
+
+
+What is phishing?
+A cyberattack that tricks users into revealing sensitive information by pretending to be a trustworthy entity.
+
+How can you identify a phishing email?
+Look for suspicious sender addresses, generic greetings, urgent language, and unexpected attachments or links.
+
+What is email spoofing?
+The practice of forging an email header to make it appear as if it’s from a legitimate source.
+
+Why are phishing emails dangerous?
+They can lead to identity theft, financial loss, malware infections, and unauthorized access.
+
+How can you verify the sender’s authenticity?
+Check the email headers, domain reputation, and contact the sender through a trusted channel.
+
+What tools can analyze email headers?
+Tools like MXToolbox, EmailTrackerPro, and online header analyzers help examine email headers.
+
+What actions should be taken when a phishing email is suspected?
+Do not click links or download attachments, report the email to IT/security, and delete it.
+
+How do attackers use social engineering in phishing?
+They manipulate emotions like fear or urgency to trick victims into revealing information or clicking links.
